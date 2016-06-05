@@ -1,2 +1,2 @@
 # eloquent-javascript
-My solutions for the textbook Eloquent Javascript.
+My solutions for Eloquent Javascript.
