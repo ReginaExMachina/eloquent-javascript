@@ -1,2 +1,2 @@
 # eloquent-javascript
-My solutions for Eloquent Javascript.
+Exercises from Eloquent Javascript.
