@@ -8,23 +8,9 @@ function min(x, y) {
         return y
 }
 
-// Solution 2 - Recursion
+// Solution 2 - Recursion v.2
 // Takes number as parameter and returns true if even
 
-function isEven(number) {
-    // Handles negative numbers
-    if (number < 0)
-        number *= -1
-    
-    if (number === 0)
-        return true
-    else if (number === 1)
-        return false
-    else
-        return isEven(number - 2)
-}
-
-// v.2
 function isEven(num) {
     // Handles negative numbers
     if (num < 0)
@@ -35,9 +21,6 @@ function isEven(num) {
     else
         return false
 }
-
-// v.2 is more efficent For example it returns test case num = -100 after only 6 steps
-// Recursive version after 256!!!
 
 // Solution 3 - Bean Counting
 // Given a string and character, returns how many times the character is in that string
