@@ -20,5 +20,5 @@ function isEven(number) {
 }
 ```
 
-But it had bad code smell and it turns out that v.2 is more efficent.<br />
+But it had bad code smell and it turns out that v.2 is more efficient.<br />
 For example, it returned the test case num = -100 after only 6 steps while the recursive version took 256!!!
