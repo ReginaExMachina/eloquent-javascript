@@ -3,7 +3,7 @@ Exercises from Eloquent Javascript.
 
 ## Notes
 
-10/07/2016 - From Chapter 3 my isEven function originally looked like this:
+10/07/2016 - From [Chapter 3] (https://github.com/ReginaExMachina/eloquent-javascript/blob/master/chpt3.js) my isEven function originally looked like this:
 
 ```
 function isEven(number) {
@@ -20,5 +20,4 @@ function isEven(number) {
 }
 ```
 
-But it had bad code smell and it turns out that v.2 is more efficient.<br />
-For example, it returned the test case num = -100 after only 6 steps while the recursive version took 256!!!
+But it had bad code smell, and it turns out that v.2 is much more efficient. **Example**: Test case num = -100 returned after only 6 steps while the recursive version took 256!!!
